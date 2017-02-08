@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs. git'        #官方仓库地址
+
+source ‘https://github.com/superFool/zczyTestSpecs.git’        #私有仓库地址
+
+use_frameworks!
+
+target 'podtest11' do
+
+pod ‘zczyTest’
+
+end
